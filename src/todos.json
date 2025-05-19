@@ -1,0 +1,50 @@
+[
+  {
+    "nombre": "Spotify Skip",
+    "gusto": true,
+    "starScale": 1,
+    "iconos": ["StarIcon", "JavaScript", "CSS", "Svelte", "WavyLineIcon", "WavyLineIcon2", "WavyLineIcon3", "WavyLineIcon4"]
+  },
+  {
+    "nombre": "",
+    "gusto": false,
+    "starScale": 1,
+    "iconos": ["StarIcon", "Html", "WavyLineIcon", "WavyLineIcon2", "WavyLineIcon3", "WavyLineIcon4"]
+  },
+  {
+    "nombre": "",
+    "gusto": true,
+    "starScale": 1,
+    "iconos": ["StarIcon", "Python", "CSS", "Html", "WavyLineIcon", "WavyLineIcon2", "WavyLineIcon3", "WavyLineIcon4"]
+  },
+  {
+    "nombre": "",
+    "gusto": false,
+    "starScale": 1,
+    "iconos": ["StarIcon", "Python", "Html", "WavyLineIcon", "WavyLineIcon2", "WavyLineIcon3", "WavyLineIcon4"]
+  },
+  {
+    "nombre": "",
+    "gusto": true,
+    "starScale": 1,
+    "iconos": ["StarIcon", "Python", "WavyLineIcon", "WavyLineIcon2", "WavyLineIcon3", "WavyLineIcon4"]
+  },
+  {
+    "nombre": "",
+    "gusto": false,
+    "starScale": 1,
+    "iconos": ["StarIcon", "Python", "Cmasmas", "WavyLineIcon", "WavyLineIcon2", "WavyLineIcon3", "WavyLineIcon4"]
+  },
+  {
+    "nombre": "",
+    "gusto": true,
+    "starScale": 1,
+    "iconos": ["StarIcon", "Python", "C", "WavyLineIcon", "WavyLineIcon2", "WavyLineIcon3", "WavyLineIcon4"]
+  },
+  {
+    "nombre": "",
+    "gusto": false,
+    "starScale": 1,
+    "iconos": ["StarIcon", "C", "WavyLineIcon", "WavyLineIcon2", "WavyLineIcon3", "WavyLineIcon4"]
+  }
+]

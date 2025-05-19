@@ -1,0 +1,121 @@
+body {
+  background-color: #000000;
+  color: #FDF0D5;
+  text-align: center;
+}
+
+.title {
+  margin-top: 8vh;
+  margin-bottom: 6vh;
+}
+
+.cajas {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 4vh 8vw;
+  align-items: center;
+}
+.caja{
+  margin-bottom: 2vh;
+}
+.borde-extra{
+  border: 4px solid #AAC7DA;
+  border-radius: 2px;
+  margin: 5px;
+  width: fit-content;
+}
+
+.colab-box-BIG {
+  position: relative;  /* esta línea es clave para que los hijos absolute se posicionen dentro */
+  background-color: black;
+  border: 4px solid #AAC7DA;
+  border-radius: 2px;
+  margin: 0;
+  padding: 1rem;
+  width: 280px;
+  height: 280px;
+  overflow: hidden;
+}
+.icon-layer-BIG {
+  position: relative; /* crucial for children with position:absolute */
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.icon-item-BIG {
+  position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+.nombre_fecha{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.6vh;
+}
+.nombre_fecha p{
+  margin: 0;
+}
+.fecha-repo {
+  font-size: 0.8rem;
+  color: rgba(253, 240, 213, 0.61);
+  margin-top: 0.2vh;
+}
+
+.guia {
+  margin: 12vh 20vw;
+  text-align: left;
+}
+.leyenda-titulo {
+  margin-bottom: 6vh;
+  text-align: center;
+}
+.leyenda1, .leyenda2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.leyenda1 div, .leyenda2 div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.borde-leyenda {
+  width: 2vw;
+  height: 2vw;
+}
+span {
+  font-size: 1rem;
+}
+.leyenda-subtitulo {
+  font-size: 1.5rem;
+  margin-bottom: 0.1vh;
+}
+
+.footer {
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 5vh 20vw;
+}
+  
+.footer a {
+  color: #FDF0D5;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-size: 20px;
+}
+  
+.footer a:hover {
+  text-decoration: underline;
+}

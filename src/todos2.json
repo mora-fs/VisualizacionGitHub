@@ -1,0 +1,17 @@
+[
+  {
+    "nombre": "Visualización de Datos",
+    "fecha": "2025-03-12", 
+    "commits": 20,
+    "starScale": 1,
+    "python": 0,
+    "javascript": 8, 
+    "css": 47, 
+    "html": 0, 
+    "svelte": 45, 
+    "c": 0, 
+    "c++": 0, 
+    "peso": 32.2, 
+    "gusto": true
+  }
+]
